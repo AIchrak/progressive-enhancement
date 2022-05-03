@@ -54,20 +54,33 @@
             #Typesofpeople > li:nth-child(1) {
                 background-image: url("bien.png") ;
                 background-repeat: no-repeat;
-                background-position: 67%;
+                background-position: 75%;
                 background-size: contain;
             }
             #Typesofpeople > li:nth-child(2) {
                 background-image: url("mal.png") ;
                 background-repeat: no-repeat;
-                background-position: 67%;
+                background-position: 75%;
                 background-size: contain;
             }
             #Typesofpeople > li:nth-child(3) {
                 background-image: url("chat.png") ;
                 background-repeat: no-repeat;
-                background-position: 67%;
+                background-position: 75%;
                 background-size: contain;
+            }
+            .flexbox {
+                display: flex;
+            }
+            .content {
+                display: flex;
+                justify-content: flex-end;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .content > .lastp {
+                display: flex;
+                justify-content: flex-start; 
             }
             a:visited {
                 color: rgb(7, 126, 45);
@@ -110,13 +123,16 @@
             </ul>
             Found out more in <a href="https://www.amazon.fr/dp/1577311809/ref=as_li_ss_tl?language=en_US&ie=UTF8&linkCode=gs2&linkId=e793add9bb697066facd6d40ee28dfec&tag=wells012007-21" target="_blank">Alan Watts' book.</a>
         </blockquote>
-        <figure>
-            <a href="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg" target="_blank"><img src="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg" alt="types of people"></a>
-        </figure></br>
-        <p style="text-align: justify;"><b>Up in space, turning around, looking at the earth’s face. From that rock’s perspective on Mars or that gaz opinion from Jupiter, nothing cares about your problems. Up there, it’s just not serious, and there’s no such thing as an issue.</b></br></br>
-        Down here, the only reality is the one inside our brain. Nothing exists if the brain doesn’t think it. Nothing exists neither if our senses don’t transmit the message. That means that if we missense, our reality changes. That’s possible because our perception is limited : you can’t see at 360 degrees for example. If we mistranslate the message, our reality changes. If we think it in a way, our reality changes depending on that way. Therefore, if we can change reality that much, everything’s fake. </br></br>
-        They’re proofs to that. Fall in love with someone and you’ll see that person as divine. Pull yourself out of that grip and the divine falls from clouds to solid ground, revealing him or herself differently. But the person is the same, you just changed your mind. Everything works like that : it’s not just that you can make your world, it’s that you passively do it anyway. </br></br>
-        </p>
+        <div class="flexbox">
+            <figure class="IMG">
+                <a href="im1.jpeg" target="_blank"><img src="im1.jpeg" alt="types of people"></a>
+            </figure></br>
+            <div class="content">
+                <p style="text-align: justify;"><b>Up in space, turning around, looking at the earth’s face. From that rock’s perspective on Mars or that gaz opinion from Jupiter, nothing cares about your problems. Up there, it’s just not serious, and there’s no such thing as an issue.</b></p>
+                <p style="text-align: justify;">Down here, the only reality is the one inside our brain. Nothing exists if the brain doesn’t think it. Nothing exists neither if our senses don’t transmit the message. That means that if we missense, our reality changes. That’s possible because our perception is limited : you can’t see at 360 degrees for example. If we mistranslate the message, our reality changes. If we think it in a way, our reality changes depending on that way. Therefore, if we can change reality that much, everything’s fake. </p>
+                <p class="lastp" style="text-align: justify;">They’re proofs to that. Fall in love with someone and you’ll see that person as divine. Pull yourself out of that grip and the divine falls from clouds to solid ground, revealing him or herself differently. But the person is the same, you just changed your mind. Everything works like that : it’s not just that you can make your world, it’s that you passively do it anyway. </p>
+            </div>
+        </div>
         <figure>
             <a href="http://static2.businessinsider.com/image/52fe8230eab8ea4275063b89/nasa-has-determined-where-the-mysterious-jelly-doughnut-rock-on-mars-came-from.jpg" target="_blank"><img src="http://static2.businessinsider.com/image/52fe8230eab8ea4275063b89/nasa-has-determined-where-the-mysterious-jelly-doughnut-rock-on-mars-came-from.jpg" alt="a circled stone on the ground"></a>
             <figcaption><em>What does he think about it?</em></figcaption>

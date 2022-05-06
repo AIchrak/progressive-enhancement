@@ -1,0 +1,92 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu {
+    background-color: firebrick;
+    overflow: hidden;
+}
+.menu a { 
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.menu a:hover {
+    background-color: #ddd;
+    color: firebrick;
+}
+.menu a.active {
+    background-color: black;
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: 600px 700px;
+    grid-template-rows: auto;
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.mainimg {
+    grid-column: 1/2;
+    grid-row: 1 /2;
+}
+.mainimg > img {
+    width: 500px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.contentgrid {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+h2 {
+    font-size: 50px;
+    color: firebrick;
+    position: relative;
+    animation-name: moveright;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes moveright {
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+p {
+    font-size: 25px;
+}
+button {
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: firebrick;
+    color: aliceblue;
+    font-size: 15px;
+}
+button:hover {
+    background-color: aliceblue;
+    color: firebrick;
+    border: 2px solid firebrick;
+}
+.centerbutton {
+    display: flex;
+    justify-content: center;
+}
+.centerbutton > button {
+    justify-content: center;
+    align-self: center;
+}
+footer {
+    text-align: center;
+}

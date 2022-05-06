@@ -1,0 +1,99 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+header > p {
+    background-color: yellow;
+}
+body {
+    width: 90%;
+    margin: 5%;
+    background: -webkit-linear-gradient(90deg, rgb(255, 255, 255), rgb(227, 211, 131));
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(227, 211, 131));
+    background-image: url(https://images.unsplash.com/photo-1634655377962-e6e7b446e7e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 30%;
+    text-align: center;
+}
+th {
+    background-color: antiquewhite;
+}
+tr:nth-child(odd) {
+    background-color: antiquewhite;
+}
+h2 {
+    color: rgb(0, 0, 0);
+}
+p {
+    font-size: 20px;
+    word-spacing: 0.5px;
+    color: rgb(6, 6, 92);
+}
+blockquote {
+    font-size: 20px;
+    font-family: serif;
+    word-spacing: 0.5px;
+    color: rgb(6, 6, 92);
+    width: 50%; 
+    background-color: rgb(216, 210, 210); 
+    border-left: 3px solid Firebrick;  
+    font-size: 160%; 
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#Typesofpeople > li:nth-child(1) {
+    background-image: url("bien.png") ;
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-size: contain;
+}
+#Typesofpeople > li:nth-child(2) {
+    background-image: url("mal.png") ;
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-size: contain;
+}
+#Typesofpeople > li:nth-child(3) {
+    background-image: url("chat.png") ;
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-size: contain;
+}
+.flexbox {
+    display: flex;
+}
+.content {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.story {
+    font-size: 17px;
+}
+a:visited {
+    color: rgb(7, 126, 45);
+}
+a:hover {
+    color:rgb(30, 152, 223)
+}
+.Villagers {
+    border-left: 3px solid blue;
+}
+.Farmer {
+    border-left: 3px solid rgb(181, 9, 181);
+}
+.bad {
+    text-transform: uppercase;
+    color: red;
+}
+.good {
+    text-transform: uppercase;
+    color: green;
+}
